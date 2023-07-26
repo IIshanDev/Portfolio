@@ -1,2 +1,2 @@
 # IshanDev-portfolio
-link : https://ishangamedev.github.io/IshanDev-portfolio/
+link : https://iishandev.github.io/Portfolio/

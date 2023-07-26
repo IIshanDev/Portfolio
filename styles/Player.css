@@ -1,0 +1,26 @@
+.PlayerPannel {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.VideoPlayerTut {
+    background-color: black;
+}
+
+@media screen and (max-width: 1100px) {
+    .PlayerPannel {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}

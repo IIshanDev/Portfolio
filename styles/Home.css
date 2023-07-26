@@ -1,0 +1,22 @@
+.HomePannel {
+    margin: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .HomePannel {
+        margin-top: 5rem;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}

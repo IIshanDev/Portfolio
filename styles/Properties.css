@@ -1,0 +1,34 @@
+.DarkMode {
+    background-color: rgb(255, 255, 255);
+    color: rgba(35, 35, 35, 1);
+}
+
+.__ColorWhite_ {
+    color: white;
+}
+
+.__BackColor_Black {
+    background-color: rgba(35, 35, 35, 1);
+    border-radius: 10px;
+}
+
+.Active_ {
+    border: 2px solid rgba(27, 108, 190, 0.556);
+}
+
+.button_ {
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 100ms;
+    user-select: none;
+}
+
+.button_:hover {
+    border: 1px solid rgba(0, 0, 0, 0.0);
+}
+
+.button_:active {
+    transform: translate(-5px, 5px);
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.0);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+}
